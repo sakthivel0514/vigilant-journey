@@ -1,0 +1,47 @@
+*{
+margin: 0;
+padding: 0;
+}
+#header{
+	background-color: white;
+	height: 80px;
+	width: 100%;
+}
+body{
+	background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#logo{
+	position: absolute;
+	height:80px;
+	width: 20%;
+}
+#header ul{
+	float: right;
+}
+#header ul li {
+	display:inline;
+	margin-right: 40px;
+}
+#header ul li a{
+	position: relative;
+	color: black;
+	font-size:25px;
+	top: 20px;
+}
+#hover:hover{
+	color:red;
+}
+#footer{
+	height: 40px;
+	background-color: black;
+	line-height: 40px;
+	clear: both;
+	margin-top: 510px;
+	}
+#footer P{
+	color: white;
+	margin-right: 20px;
+}
+
